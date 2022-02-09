@@ -28,14 +28,14 @@ body {
     All text in paragraphs should be blue.
 */
 p {
-    color:blue;
+    color:rgb(5, 5, 128);
 }
 
 /* 
     The background of all divs should be pink.
  */
 div {
-    background-color: hotpink;
+    background-color: rgb(105, 170, 255);
 }
 
 /* 
@@ -61,7 +61,7 @@ div {
         You can also give colors in RGB values (0 to 255). If you are expecting 
         older browsers using your site, refrain from using RGB formatting.
     */
-    color: rgb(100, 168, 200);
+    color: rgb(59, 102, 122);
 }
 
 .background-image-class {
@@ -128,8 +128,8 @@ a:hover {
 */
 .navbar li {
     width: 150 px;
-    background-color: #000;
-    border: 1px solid red;
+    background-color: rgb(19, 2, 2);
+    border: 1px solid rgba(3, 1, 1, 0.897);
     /* 
         Show the navbar elements next to each other instead of on top of each 
         other. 
@@ -173,11 +173,11 @@ iframe {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: orange;
+    background-color: rgba(0, 119, 255, 0.562);
 }
 
 .flex-container > div {
-    background-color: grey;
+    background-color: rgba(171, 223, 247, 0.404);
     width: 200px;
     margin: 10px;
     text-align: center;
